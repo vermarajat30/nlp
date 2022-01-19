@@ -52,7 +52,6 @@ tf = TfidfVectorizer()
 x = tf.fit_transform(corpus).toarray()
 
 y = pd.get_dummies(text['label'])
-#y =y.drop(['spam'], axis = 1 )
 
 y = y.iloc [:, 1].values
 

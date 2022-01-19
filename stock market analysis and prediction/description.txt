@@ -1,1 +1,6 @@
 
+This is a stock market prediction project where the objective is to see wether the dow jones index rises or fall or remains same due to the news headlines of the newspapers and world posts.
+
+The data set contains the top 25 headlines with date and the change in index price.
+
+i have used random forest classifier as the model and used nlp to analyse the text data.

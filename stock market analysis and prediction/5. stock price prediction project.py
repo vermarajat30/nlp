@@ -77,7 +77,7 @@ x.head()
 
 #text cleaning
 
-import re
+
 import nltk
 from nltk.stem import PorterStemmer
 sm = PorterStemmer()
@@ -113,35 +113,8 @@ from sklearn.model_selection import train_test_split
 xtrain, xtest, ytrain, ytest = train_test_split(x,y, test_size=0.30, random_state = 0)
 
 
-# In[ ]:
-
-
-
-
-
-# In[195]:
-
-
-from sklearn.naive_bayes import MultinomialNB
-
-nb = MultinomialNB()
-nb.fit(xtrain, ytrain)
-pred = nb.predict(xtest)
-
-
-
-# In[196]:
-
 
 from sklearn.metrics import accuracy_score
-
-accuracy = accuracy_score(pred, ytest)
-accuracy
-
-
-# In[197]:
-
-
 from sklearn.ensemble import RandomForestClassifier
 ada = RandomForestClassifier(n_estimators = 200 , criterion = "entropy")
 ada.fit(xtrain, ytrain)

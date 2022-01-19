@@ -1,0 +1,4 @@
+This project is done on the most popular use case of basic nlp i.e. Sentiment Analysis.
+I have done this project to impliment the sentiment analysis on the speech given by our ex. President Dr. A.P.J Abdul Kalam about the visions of india.
+applied the concepts of text pre-processing.
+ouput was a positive sentiment.

@@ -1,1 +1,4 @@
 
+This is a spam classification implimentation using nlp.
+the dataset contains sms text messages and a label colums to see wether the message was a ham or a spam.
+I have used naive_bayes classifier using nltk library of python.

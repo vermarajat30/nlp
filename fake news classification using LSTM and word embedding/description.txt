@@ -1,0 +1,2 @@
+this is the fake news classifier project from kaggle competition.
+here i have used LSTM and Word Embedding techniques to achieve 90 percent accuracy.
